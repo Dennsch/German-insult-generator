@@ -80,9 +80,16 @@ h1 {
 
 .insult-display h2 {
   color: #333;
-  margin: 0;
+  margin: 0 0 10px 0;
   font-size: 1.8rem;
   font-weight: bold;
+}
+
+.translation {
+  color: #666;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 0;
 }
 
 @keyframes fadeIn {

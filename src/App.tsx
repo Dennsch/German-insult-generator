@@ -1,28 +1,27 @@
 import { useState } from 'react'
 import './App.css'
 
-// Collection of German insults (keeping them relatively mild)
+// Collection of German insults
 const germanInsults = [
-  "Du Dummkopf!", // You dummy!
-  "Du Trottel!", // You fool!
-  "Du Hornochse!", // You blockhead!
-  "Du Hohlkopf!", // You airhead!
-  "Du Schwachkopf!", // You weakhead!
-  "Du Tollpatsch!", // You klutz!
-  "Du Pfosten!", // You post (meaning blockhead)!
-  "Du Knallkopf!", // You crackhead!
-  "Du Dussel!", // You silly person!
-  "Du Nulpe!", // You zero!
-  "Du Flachzange!", // You flat pliers (meaning dimwit)!
-  "Du Schlafmütze!", // You sleepyhead!
-  "Du Trampeltier!", // You trampling animal!
-  "Du Schussel!", // You scatterbrain!
-  "Du Holzkopf!", // You wooden head!
-  "Du Blödmann!", // You fool!
-  "Du Einfaltspinsel!", // You simpleton!
-  "Du Stümper!", // You bungler!
-  "Du Tölpel!", // You oaf!
-  "Du Banause!" // You philistine!
+  "Scheiße!", // shit
+  "Schlampe!", // slut
+  "Fotze!", // cunt
+  "Wichser!", // wanker
+  "Kacke!", // shit
+  "Hurensohn!", // son of whore
+  "Dummkopf!", // dumbass
+  "Arschloch!", // asshole
+  "Fick dich!", // fuck you
+  "Verdammt!", // damn
+  "Trottel!", // idiot
+  "Verpiss dich!", // piss off
+  "Nutte!", // whore
+  "Hackfresse!", // ugly face
+  "Depp!", // moron
+  "Volltrottel!", // complete idiot
+  "Arschgeige!", // ass violin
+  "Hodenkobolt!", // testicle goblin
+  "Missgeburt!" // freak/miscarriage
 ]
 
 function App() {
@@ -62,7 +61,7 @@ function App() {
         
         <div className="disclaimer">
           <small>
-            * These are mild German expressions used for educational/entertainment purposes only.
+            * These are authentic German expressions used for educational/entertainment purposes only.
           </small>
         </div>
       </div>

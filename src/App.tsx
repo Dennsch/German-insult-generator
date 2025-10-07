@@ -61,7 +61,6 @@ function App() {
             <p className="translation">({currentInsult.english})</p>
           </div>
         )}
-
       </div>
     </div>
   );

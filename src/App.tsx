@@ -56,7 +56,14 @@ function App() {
         
         {currentInsult && (
           <div className="insult-display">
-            <h2>{currentInsult}</h2>
+            <div className="insult-content">
+              <img 
+                src="/Screaming german.png" 
+                alt="Screaming person" 
+                className="screaming-image"
+              />
+              <h2>{currentInsult}</h2>
+            </div>
           </div>
         )}
         

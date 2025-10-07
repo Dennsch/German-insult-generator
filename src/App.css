@@ -78,6 +78,38 @@ h1 {
   animation: fadeIn 0.5s ease-in;
 }
 
+.insult-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.screaming-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ff6b6b;
+  animation: screamPulse 1s ease-in-out;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+@keyframes screamPulse {
+  0% { 
+    transform: scale(0.8) rotate(-5deg);
+    opacity: 0;
+  }
+  50% { 
+    transform: scale(1.1) rotate(2deg);
+  }
+  100% { 
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
 .insult-display h2 {
   color: #333;
   margin: 0;
@@ -119,5 +151,15 @@ h1 {
   
   .insult-display h2 {
     font-size: 1.5rem;
+  }
+  
+  .insult-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .screaming-image {
+    width: 60px;
+    height: 60px;
   }
 }

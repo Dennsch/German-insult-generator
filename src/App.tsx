@@ -46,9 +46,6 @@ function App() {
     <div className="app">
       <div className="container">
         <h1>🇩🇪 German Insult Generator 🇩🇪</h1>
-        <p className="subtitle">
-          Click the button to get a random German insult!
-        </p>
 
         <button
           className={`insult-button ${isAnimating ? "animating" : ""}`}
@@ -65,12 +62,6 @@ function App() {
           </div>
         )}
 
-        <div className="disclaimer">
-          <small>
-            * These are authentic German expressions used for
-            educational/entertainment purposes only.
-          </small>
-        </div>
       </div>
     </div>
   );

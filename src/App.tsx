@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1>🇩🇪 German Insult Generator 🇩🇪</h1>
+        <h1>🇩🇪 Insult Generator 🇩🇪</h1>
 
         <button
           className={`insult-button ${isAnimating ? "animating" : ""}`}
